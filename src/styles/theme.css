@@ -126,9 +126,25 @@
 
   body {
     @apply bg-background text-foreground;
-    font-family: 'Cairo', 'Tajawal', sans-serif;
+    position: relative;
+    font-family: "Cairo", "Tajawal", sans-serif;
     direction: rtl;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition:
+      background-color 0.3s ease,
+      color 0.3s ease;
+  }
+
+  /* subtle repeating pattern overlay (8% opacity) */
+  body::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("assets/islamic-pattern.png");
+    background-size: 220px, 220px;
+    background-repeat: repeat, repeat;
+    background-position: center;
+    opacity: 0.08;
+    pointer-events: none;
   }
 
   /**
