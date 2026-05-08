@@ -68,7 +68,7 @@ export const Sidebar = () => {
 
       <div className="p-4 border-t border-border">
         <p className="text-xs text-muted-foreground text-center">
-          © 2026 القرآن الكريم
+          &copy; 2026 حسن عدلي. جميع الحقوق محفوظة.
         </p>
       </div>
     </aside>
