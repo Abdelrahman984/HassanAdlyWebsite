@@ -139,7 +139,7 @@
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url("assets/islamic-pattern.png");
+    background-image: url("/islamic-pattern.png");
     background-size: 220px, 220px;
     background-repeat: repeat, repeat;
     background-position: center;
